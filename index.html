@@ -1,35 +1,107 @@
 <!DOCTYPE html>
-<title>Home</title>
-
-
+<html lang="en">
 <head>
-<h1> Welcome to Muano optometrist</h1>
-<h2></h2>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="research/Logo.png">
+
 
 </head>
 
-
 <body>
-    <h2> It's a new dawn</h2>
 
-    <br>
+    <div class="navigation">
+        <nav>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="primary-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="booking.html">Book</a></li>
+                <li><a href="index.html#about-us">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <h2> New arrivals </h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ea molestiae velit ad iusto! Itaque cum accusamus eaque et nostrum, maiores at pariatur eius, similique eligendi sint. Rerum, qui aperiam?</p>
-    <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum explicabo placeat enim quidem architecto eius atque incidunt asperiores consequuntur ipsa earum deserunt officia fuga necessitatibus quasi, sint consequatur sed.</P>
-    <br>
+    <main>
+        <div class="hero-section">
+            <h1 class="hero-heading">SCHEDULE YOUR EYE TEST TODAY!!</h1>
+            <img src="research/hero2.jpg" alt="Hero Image" class="hero-image">
+        </div>
+
+        <div class="welcome-message">
+            <h2>It's a New Dawn</h2>
+        </div>
 
 
-    <h2> about us  </h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vero temporibus eveniet cum nemo magni beatae asperiores sequi saepe? Architecto iste quas quo incidunt doloribus repellat dignissimos excepturi a modi!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores praesentium dolores iusto ipsa fugit quaerat quo veniam atque, omnis quam! In ea aut, vero consequuntur tenetur molestiae ut iusto pariatur!</p>
-    <p></p>
+        <div class="MidHero">
+            <img src="research/hero3.jpg" alt="Mid Hero Image"class="mid-hero-image">
+        </div>
+<section class="new-arrivals container">
+    <h2>Our Products</h2>
+    
+    <div class="arrival-cards">
+        <div class="card">
+            <img src="research/specticles.jpg" alt="arrival-cards"class="card-image">
+            <div class="card-content">
+                <h3>Specticles</h3>
+                <p>Clear vision meets ultimate style. Shop our high-quality glasses, sunglasses, and contact lenses to upgrade your look and see your best.</p>
+            </div>
+        </div>
 
+        <div class="card">
+            <img src="research/content.jpg" alt="arrival-cards"class="card-image">
+            <div class="card-content">
+                <h3>Contact Lenses</h3>
+                <p>Experience crystal-clear vision with our premium contact lenses, designed for comfort and style.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="research/sunglass.jpg" alt="arrival-cards"class="card-image">
+            <div class="card-content">
+                <h3>Sunglasses</h3>
+                <p>Protect your eyes in style with our premium sunglasses, featuring UV protection and modern designs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+      <div class="about-us" id="about-us">
+    <div class="content-wrapper">
+        <h2>About us</h2>
+        <img src="research/about-us.jpg" alt="About Us Image" class="about-us-image">
+        <p>We are a team of dedicated optometrists committed to providing exceptional eye care services.
+             With years of experience and a passion for helping our patients see their best, we strive to exceed expectations and ensure every visit is a positive experience.</p>
+        <p>Our clinic is equipped with state-of-the-art technology, 
+            allowing us to offer comprehensive eye exams, accurate prescriptions, and a wide range of eyewear options. 
+            We believe in personalized care, taking the time to understand each patient's unique needs and concerns.</p>
+    </div>
+</div>
+
+<div class="our-mission">
+    <div class="content-wrapper">
+        <h2>Our Mission & Values</h2>
+        <img src="research/mission.jpg" alt="Our Mission Image" class="mission-image">
+        <p>Our mission is simple: to enhance your quality of life by preserving and maximizing your precious gift of sight. We are committed to delivering world-class clinical expertise without losing the personal touch that builds lifelong relationships. By keeping up with medical advancements, we protect your vision for today and tomorrow.</p>
+        <p>We strive to create an inclusive, comfortable environment where eye care is accessible and stress-free. Every prescription we write and every treatment plan we curate is designed to keep your unique lifestyle, comfort, and long-term ocular health in perfect focus.</p>
+    </div>
+</div>
+
+    </main>
 
     <footer>
-        @Muano optometrist
+        &copy; Muano Optometrist
+        Twitter: @Muano_Optometrist
+        Instagram: @MuanoOptometrist
     </footer>
-    
-    
-</body>
+</body>+
 </html>
