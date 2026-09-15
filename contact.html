@@ -1,24 +1,58 @@
 <!DOCTYPE html>
-<title>Contact</title>
-
-
+<html lang="en">
 <head>
-<h2> Get in touch wih us  </h2>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="research/Logo.png">    <!--Tab Icon -->
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="navigation">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="booking.html">Book</a></li>
+                <li><a href="index.html#about-us">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+<head>
+<h2>  <center>Get in touch wih us </center></h2>
 </head>
 
 
 <body>
-    <h3>Fill out the form below</h3>
-    <h4>and we will get bak to you </h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ea molestiae velit ad iusto! Itaque cum accusamus eaque et nostrum, maiores at pariatur eius, similique eligendi sint. Rerum, qui aperiam?</p>
-    <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum explicabo placeat enim quidem architecto eius atque incidunt asperiores consequuntur ipsa earum deserunt officia fuga necessitatibus quasi, sint consequatur sed.</P>
-    <br>
+    <div class="simple-contact-container">
+  
+
+  <h3>Fill out the form below</h3>
+  <h4>and we will get back to you</h4>
+
+  <form class="simple-form">
+    <div class="form-field">
+      <label for="contact-name">Full Name</label>
+      <input type="text" id="contact-name" required placeholder="Your Name">
+    </div>
+    <div class="form-field">
+      <label for="contact-email">Email Address</label>
+      <input type="email" id="contact-email" required placeholder="Your Email Address">
+    </div>
+    <div class="form-field">
+      <label for="contact-message">Message</label>
+      <textarea id="contact-message" rows="5" required placeholder="How can we help you?"></textarea>
+    </div>
+    <button type="submit" class="form-submit-btn">Send Message</button>
+  </form>
 
 
-    <h2>Us the email blow </h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vero temporibus eveniet cum nemo magni beatae asperiores sequi saepe? Architecto iste quas quo incidunt doloribus repellat dignissimos excepturi a modi!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores praesentium dolores iusto ipsa fugit quaerat quo veniam atque, omnis quam! In ea aut, vero consequuntur tenetur molestiae ut iusto pariatur!</p>
-    <p></p>
+</div>
+
     
     <footer>
         @Muano optometrist
