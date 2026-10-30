@@ -1,33 +1,92 @@
 <!DOCTYPE html>
-<title>Products </title>
-
-
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <title>Products | Muano Optometrist</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="research/Logo.png">    <!--Tab Icon -->
 </head>
-<h1>Browse through our wide range of eye wear</h1>
 
 <body>
-   
+    <!-- navigation bar -->
+    <div class="navigation">
+        <nav>
+             <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul id="primary-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="Products.html">Product</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="booking.html">Book</a></li>
+                <li><a href="index.html#about-us">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <br>
+    <main class="content-container">
+        <h1>Browse through our wide range of eyewear</h1>
 
-    <h2> Specticles</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ea molestiae velit ad iusto! Itaque cum accusamus eaque et nostrum, maiores at pariatur eius, similique eligendi sint. Rerum, qui aperiam?</p>
-    <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum explicabo placeat enim quidem architecto eius atque incidunt asperiores consequuntur ipsa earum deserunt officia fuga necessitatibus quasi, sint consequatur sed.</P>
-    <br>
+        <section class="product-section">
+            <h2>Spectacles</h2>
+            <p>Focuses on the perfect blend of crystal-clear vision correction, specialized lens enhancements (like blue-light blocking), and modern frame styling to match your unique personality.</p>
+            <div class="image-row">
+                <div class="image-card">
+                    <img src="research/sp1.jpg" alt="Spectacles Style 1">
+                </div>
+                <div class="image-card">
+                    <img src="research/sp2.jpg" alt="Spectacles Style 2">
+                </div>
+                <div class="image-card">
+                    <img src="research/sp3.jpg" alt="Spectacles Style 3">
+                      </div>
+            </div>
+        </section>
 
+        <section class="product-section">
+            <h2>Sunglasses</h2>
+            <p>Emphasizes high-fashion aesthetics paired with essential clinical UV-protection tech to defend eyes against intense sunlight glare.</p>
+            <div class="image-row">
+                <div class="image-card">
+                    <img src="research/sg1.jpg" alt="Sunglasses Style 1">
+                </div>
+                <div class="image-card">
+                    <img src="research/sg2.jpg" alt="Sunglasses Style 2">
+                </div>
+                <div class="image-card">
+                    <img src="research/sg3.jpg" alt="Sunglasses Style 3">
+                </div>
+            </div>
+        </section>
 
-    <h2> Sun glasses  </h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vero temporibus eveniet cum nemo magni beatae asperiores sequi saepe? Architecto iste quas quo incidunt doloribus repellat dignissimos excepturi a modi!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores praesentium dolores iusto ipsa fugit quaerat quo veniam atque, omnis quam! In ea aut, vero consequuntur tenetur molestiae ut iusto pariatur!</p>
-
-    <h2> contant lenses  </h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vero temporibus eveniet cum nemo magni beatae asperiores sequi saepe? Architecto iste quas quo incidunt doloribus repellat dignissimos excepturi a modi!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores praesentium dolores iusto ipsa fugit quaerat quo veniam atque, omnis quam! In ea aut, vero consequuntur tenetur molestiae ut iusto pariatur!</p>
+      
+        <section class="product-section">
+            <h2>Contact Lenses</h2>
+           <p>Highlights active-lifestyle freedom, advanced breathability, and reliable premium moisture retention for maximum all-day comfort.</p>
+           
+            <div class="image-row">
+                <div class="image-card">
+                    <img src="research/cl1.jpg" alt="Contact Lenses Type 1" >
+                </div>
+                <div class="image-card">
+                    <img src="research/cl2.jpg" alt="Contact Lenses Type 2">
+                </div>
+                <div class="image-card">
+                    <img src="research/cl3.jpg" alt="Contact Lenses Type 3">
+                </div>
+            </div>
+        </section>
+    </main>
     
     <footer>
-        @Muano optometrist
+        &copy; Muano Optometrist
     </footer>
     
 </body>
