@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="icon" href="research/Logo.png">    <!--Tab Icon -->
+     <link rel="icon" href="research/Logo.png"> 
 </head>
 
 <body>
-    <!-- navigation bar -->
     <div class="navigation">
         <nav>
-            <ul>
+           <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul id="primary-menu">
                 <li><a href="index.html">Home</a></li>
-                li><a href="Services.html">Services</a></li>
+                <li><a href="services.html">Services</a></li>
+                  <li><a href="Products.html">Product</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="booking.html">Book</a></li>
                 <li><a href="index.html#about-us">About</a></li>
@@ -49,10 +56,12 @@
     </div>
     <button type="submit" class="form-submit-btn">Send Message</button>
   </form>
-
-
 </div>
 
+<div class="map-container">
+  <h2>Visit us at our location</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14589.831676840242!2d29.501491684161365!3d-23.908833670229196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d759ae394673%3A0xc4baa6793da5a696!2s138%20Erasmus%20St%2C%20Flora%20Park%2C%20Polokwane%2C%200699!5e0!3m2!1sen!2sza!4v1793264148035!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
     
     <footer>
         @Muano optometrist
